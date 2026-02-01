@@ -1,6 +1,6 @@
 Harsha is a software engineer with 10 years of experience in full-stack development. He specializes in Python, JavaScript, and cloud technologies. Harsha has worked on various projects ranging from web applications to machine learning systems.
 
-Harsha's expertise includes:
+Harsha's expertise includes: updated
 - Backend development with Python and Django
 - Frontend development with React and Vue.js
 - Cloud deployment on AWS and Azure
