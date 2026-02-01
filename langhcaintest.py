@@ -49,7 +49,7 @@ def main():
     llm = getCurrentLLM()
     
     # Hard coded question
-    question = "Who is Harsha and what is her expertise?"
+    question = "Who is REV9 and what is her expertise?"
     
     print(f"Question: {question}\n")
     print("Processing...\n")
