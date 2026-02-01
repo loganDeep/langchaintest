@@ -1,6 +1,6 @@
 from langchain_community.chat_models import ChatOllama
 
-
+#make this better later by adding more LLM options
 def getCurrentLLM():
     """Get current LLM instance (ChatOllama with phi3 model)"""
     llm = ChatOllama(model="phi3")
