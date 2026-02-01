@@ -1,7 +1,7 @@
 REV9 is a software engineer with 10 years of experience in full-stack development. He specializes in Python, JavaScript, and cloud technologies. REV9 has worked on various projects ranging from web applications to machine learning systems.
 
 REV9's expertise includes: updated
-- Backend development with Python and Django
+- Backend development with Python and Langchain
 - Frontend development with Rseact and Vue.js
 - Cloud deploymsent on AWS and Azure
 - Database design and optimization
