@@ -1,7 +1,7 @@
 from langchain_community.chat_models import ChatOllama
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pathlib import Path
-
+from pythonPdfLoader import loadPythonPdf 
 from helper.llmmethods import InvokeLLM, getCurrentLLM
 
 def load_text_from_file(file_path: str) -> str:
@@ -28,8 +28,8 @@ def main():
     print("=" * 60)
     
     # Load text from file
-    file_path = "data.txt"
-    text = load_text_from_file(file_path)
+    file_path = "filestore/cv-template.pdf"
+    text = loadPythonPdf(file_path)
     
     if not text:
         print(f"Could not load '{file_path}'. Please check the file exists.")
@@ -49,7 +49,7 @@ def main():
     llm = getCurrentLLM()
     
     # Hard coded question
-    question = "Who is REV9 and what is her expertise?"
+    question = "What is this document?"
     
     print(f"Question: {question}\n")
     print("Processing...\n")
