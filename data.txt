@@ -2,12 +2,12 @@ Harsha is a software engineer with 10 years of experience in full-stack developm
 
 Harsha's expertise includes: updated
 - Backend development with Python and Django
-- Frontend development with React and Vue.js
-- Cloud deployment on AWS and Azure
+- Frontend development with Rseact and Vue.js
+- Cloud deploymsent on AWS and Azure
 - Database design and optimization
 - Machine learning model deployment
 - DevOps and containerization with Docker
-
+   
 Throughout his career, Harsha has led teams of developers and contributed to open-source projects. He is passionate about writing clean, maintainable code and sharing knowledge with other developers.
 
 Currently, Harsha is working on AI integration projects and exploring the potential of large language models in enterprise applications. He enjoys mentoring junior developers and conducting technical workshops.
