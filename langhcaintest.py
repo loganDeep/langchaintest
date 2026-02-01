@@ -32,7 +32,7 @@ def main():
     text = loadPythonPdf(file_path)
     
     if not text:
-        print(f"Could not load '{file_path}'. Please check the file exists.")
+        print(f"Could not load '{file_path}'. Please check if the file exists.")
         return
     
     print(f"✓ Loaded '{file_path}' ({len(text)} characters)\n")
