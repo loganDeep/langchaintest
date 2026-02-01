@@ -18,4 +18,4 @@ REV9's notable projects include:
 3. A cloud-native microservices architecture for a fintech company
 4. An open-source Python library for data transformation
 
-In his spare time, REV9 contributes to the community through blog posts, conference talks, and open-source contributions.
+In his spare time, REV9 contributes to the community through blog posts, conference talks, and open-source contributions. Feb 01
