@@ -1,8 +1,8 @@
 from langchain_community.chat_models import ChatOllama
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pathlib import Path
-from pythonPdfLoader import loadPythonPdf 
-from helper.llmmethods import InvokeLLM, getCurrentLLM
+from fileLoader import loadFile 
+from helper.llmmethods import InvokeLLM, getCurrentLLM, Timer
 
 def load_text_from_file(file_path: str) -> str:
     """Load text content from a file"""
@@ -28,8 +28,8 @@ def main():
     print("=" * 60)
     
     # Load text from file
-    file_path = "filestore/cv-template.pdf"
-    text = loadPythonPdf(file_path)
+    file_path = "filestore/data.txt"
+    text = loadFile(file_path)
     
     if not text:
         print(f"Could not load '{file_path}'. Please check if the file exists.")
@@ -54,9 +54,13 @@ def main():
     print(f"Question: {question}\n")
     print("Processing...\n")
     
+    # Timing the LLM invocation
+    timer = Timer()
+    timer.start()
     # Ask question using context
     response = InvokeLLM(llm, chunks, question)
-
+    elapsed_time = timer.end()
+    print(f"LLM processing took: {elapsed_time:.2f} seconds\n")
     print("Answer:")
     print("-" * 60)
     print(response.content)
