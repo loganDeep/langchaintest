@@ -24,14 +24,18 @@ async def ask_endpoint(req: AskRequest):
 
     llm = getCurrentLLM()
 
+    hardcoded_prompt = (
+        "Return only payment errors  count "     )
+
     try:
-        response = InvokeLLM(llm, chunks, req.prompt)
+        response = InvokeLLM(llm, chunks, hardcoded_prompt)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"LLM call failed: {str(e)}")
 
+    payment_error_info = response.content if hasattr(response, "content") else str(response)
+
     return {
-        "query": req.prompt,
-        "model": "phi3",
-        "answer": response.content if hasattr(response, "content") else str(response),
+         
+        "payment_error_info": payment_error_info,
         "status_code": getattr(response, "status_code", None),
     }
