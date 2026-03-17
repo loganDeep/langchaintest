@@ -4,7 +4,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pathlib import Path
 from fileLoader import loadFile 
 from helper.llmmethods import InvokeLLM, getCurrentLLM, Timer
-from fpdf import FPDF
+
 
 def main():
     print("=" * 60)
