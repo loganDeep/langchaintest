@@ -24,7 +24,7 @@ def loadFile(filePath: str) -> str:
             documents = loader.load()
             text = "\n".join(doc.page_content for doc in documents)
         
-        elif file_extension == '.txt':
+        elif file_extension == '.txt' or file_extension == '.json':
             # Load text file using langchain TextLoader
             loader = TextLoader(str(path), encoding='utf-8')
             documents = loader.load()

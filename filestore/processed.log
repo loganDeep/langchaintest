@@ -1,0 +1,500 @@
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+ {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}]
+ ```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},
+ {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException"}]
+```
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response detected"},
+ {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"},
+ {"Timestamp":"2026-02-20T10:08:45Z","Level":"Information","Message":"Email sent successfully"}]
+```json
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response detected","Service":"PaymentAPI","RequestId":"req-006","DurationMs":1200,"Endpoint":"/pay"},
+ {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"}]
+```
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException"}]
+```json
+[
+{
+"Timestamp":"2026-02-20T10:05:05Z",
+"Level":"Error",
+"Message":"Timeout during payment processing",
+"Service":"PaymentAPI",
+"RequestId":"req-007",
+"Exception":"TimeoutException",
+"UserId":null
+},
+{
+"Timestamp":"2026-02-20T10:08:45Z",
+"Level":"Error",
+"Message":"Payment declined by gateway",
+"Service":"PaymentAPI",
+"RequestId":"req-012",
+"Exception":"PaymentGatewayException",
+"UserId":null,
+"TransactionId":"txn-789"
+}
+]
+```
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},{"Timestamp":"2026-02-20T10:09:45Z","Level":"Information","Message":"Email sent successfully","Service":"NotificationAPI","RequestId":"req-013","Recipient":"user-23@example.com"}]
+```json
+[
+    {
+        "Timestamp": "2026-02-20T10:03:45Z",
+        "Level": "Error",
+        "Message": "Failed to send email",
+        "Service": "NotificationAPI",
+        "RequestId": "req-005",
+        "Exception": "SmtpException"
+    },
+    {
+        "Timestamp": "2026-02-20T10:04:20Z",
+        "Level": "Warning",
+        "Message": "Slow response detected",
+        "Service": "PaymentAPI",
+        "RequestId": "req-006"
+    },
+    {
+        "Timestamp": "2026-02-20T10:05:05Z",
+        "Level": "Error",
+        "Message": "Timeout during payment processing",
+        "Service": "PaymentAPI",
+        "RequestId": "req-007",
+        "Exception": "TimeoutException"
+    },
+    {
+        "Timestamp": "2026-02-20T10:09:10Z",
+        "Level": "Error",
+        "Message": "Payment declined by gateway",
+        "Service": "PaymentAPI",
+        "RequestId": "req-012",
+        "Exception": "PaymentGatewayException"
+    }
+]
+```
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+["{"Timestamp":"2026-02-20T10:08:05Z","Level":"Error","Message":"Failed to generate report","Service":"AnalyticsAPI","RequestId":"req-011","Exception":"ReportGenerationException","UserId":"user-42"}"
+,"{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}"
+]
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing"
+  },
+  {
+    "Timestamp": "2026-02-20T10:08:45Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"}, {"Timestamp":"2026-02-20T10:09:45Z","Level":"Information","Message":"Email sent"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},
+ {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException"}]
+```
+[
+ {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+ {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}
+]
+```json
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response detected","Service":"PaymentAPI","RequestId":"req-006","DurationMs":1200,"Endpoint":"/pay"},
+ {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+ ```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007"},{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+[{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"},{"Timestamp":"2026-02-20T10:08:45Z","Level":"Error","Message":"Payment declined by gateway"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},
+ {"Timestamp":"2026-02-20T10:09:45Z","Level":"Warning","Message":"Disk space low","Service":"BackgroundWorker","RequestId":"job-002"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+[{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007"},{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response detected","Service":"PaymentAPI","RequestId":"req-006","DurationMs":1200,"Endpoint":"/pay"}]
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+[{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Exception": "PaymentGatewayException"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": null,
+    "DurationMs": 1200
+  },
+  {
+    "Timestamp": "2026-02-20T10:08:45Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007"},{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012"}]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012"
+  }
+]
+```
+```json
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway"
+  }
+]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"}]
+```
+```json
+[{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException"},
+ {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException"}]
+```
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]
+[
+    {"Timestamp":"2026-02-20T10:01:15Z","Level":"Warning","Message":"Login attempt
+attempt failed","Service":"AuthAPI","RequestId":"req-002","UserId":"user-23","Reason":"Invalid
+password"},
+    {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment
+processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"u
+ception","UserId":"user-42"},
+    {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by
+gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId
+ayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+  {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {"Timestamp":"2026-02-20T10:01:15Z","Level":"Warning","Message":"Login attempt
+attempt failed","Service":"AuthAPI","RequestId":"req-002","UserId":"user-23","Reason":"Invalid
+password"},
+  {"Timestamp":"2026-02-20T10:03:45Z","Level":"Error","Message":"Failed to send
+email","Service":"NotificationAPI","RequestId":"req-005","Exception":"SmtpException","Recipient":"u
+tion","Recipient":"user-23@example.com"},
+  {"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response
+detected","Service":"PaymentAPI","RequestId":"req-006","DurationMs":1200,"Endpoint":"/pay"},
+  {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment
+processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"u
+ception","UserId":"user-42"},
+  {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by
+gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId
+ayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]
+[
+  {"Timestamp":"2026-02-20T10:03:45Z","Level":"Error","Message":"Failed to send email","Service":"NotificationAPI","RequestId":"req-005","Exception":"SmtpException","Recipient":"user-23@example.com"},
+  {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+  {"Timestamp":"2026-02-20T10:06:30Z","Level":"Error","Message":"Null reference exception encountered","Service":"UserAPI","RequestId":"req-008","Exception":"NullReferenceException","UserId":"user-23"},
+  {"Timestamp":"2026-02-20T10:08:05Z","Level":"Error","Message":"Failed to generate report","Service":"AnalyticsAPI","RequestId":"req-011","Exception":"ReportGenerationException","UserId":"user-42","ReportType":"MonthlySales"},
+  {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+  {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]
+[
+  {
+    "Timestamp": "2026-02-20T10:03:45Z",
+    "Level": "Error",
+    "Message": "Failed to send email",
+    "Service": "NotificationAPI",
+    "RequestId": "req-005",
+    "Exception": "SmtpException",
+    "Recipient": "user-23@example.com"
+  },
+  {
+    "Timestamp": "2026-02-20T10:04:20Z",
+    "Level": "Warning",
+    "Message": "Slow response detected",
+    "Service": "PaymentAPI",
+    "RequestId": "req-006",
+    "DurationMs": 1200,
+    "Endpoint": "/pay"
+  },
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]
+[
+  {"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"},
+  {"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42","TransactionId":"txn-789"}
+]
+[
+  {
+    "Timestamp": "2026-02-20T10:05:05Z",
+    "Level": "Error",
+    "Message": "Timeout during payment processing",
+    "Service": "PaymentAPI",
+    "RequestId": "req-007",
+    "Exception": "TimeoutException",
+    "UserId": "user-42"
+  },
+  {
+    "Timestamp": "2026-02-20T10:09:10Z",
+    "Level": "Error",
+    "Message": "Payment declined by gateway",
+    "Service": "PaymentAPI",
+    "RequestId": "req-012",
+    "Exception": "PaymentGatewayException",
+    "UserId": "user-42",
+    "TransactionId": "txn-789"
+  }
+]

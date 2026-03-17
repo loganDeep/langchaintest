@@ -3,10 +3,6 @@
 from langchain_community.chat_models import ChatOllama
 from langchain_core.tools import tool
 
-# ---------------------------
-# 1️⃣ Define tools
-# ---------------------------
-
 @tool(description="Say hello to a person by name")
 def say_hello(name: str) -> str:
     return f"Hello, {name}! 👋"
@@ -24,18 +20,11 @@ tools = {
     "add_numbers": add_numbers
 }
 
-# ---------------------------
-# 2️⃣ Initialize ChatOllama
-# ---------------------------
 
 llm = ChatOllama(
     model="phi3",
     temperature=0
 )
-
-# ---------------------------
-# 3️⃣ Manual agent loop
-# ---------------------------
 
 def run_agent(user_input: str):
     prompt = f"""

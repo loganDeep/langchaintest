@@ -1,0 +1,17 @@
+
+{"Timestamp":"2026-02-20T10:00:01Z","Level":"Information","Message":"Service started successfully","Service":"AuthAPI","RequestId":"req-001","UserId":null}
+{"Timestamp":"2026-02-20T10:01:15Z","Level":"Warning","Message":"Login attempt failed","Service":"AuthAPI","RequestId":"req-002","UserId":"user-23","Reason":"Invalid password"}
+{"Timestamp":"2026-02-20T10:02:03Z","Level":"Error","Message":"Database connection failed","Service":"UserAPI","RequestId":"req-003","Exception":"TimeoutException","Database":"UserDB"}
+{"Timestamp":"2026-02-20T10:03:12Z","Level":"Information","Message":"User profile retrieved","Service":"UserAPI","RequestId":"req-004","UserId":"user-23"}
+{"Timestamp":"2026-02-20T10:03:45Z","Level":"Error","Message":"Failed to send email","Service":"NotificationAPI","RequestId":"req-005","Exception":"SmtpException","Recipient":"user-23@example.com"}
+{"Timestamp":"2026-02-20T10:04:20Z","Level":"Warning","Message":"Slow response detected","Service":"PaymentAPI","RequestId":"req-006","DurationMs":1200,"Endpoint":"/pay"}
+{"Timestamp":"2026-02-20T10:05:05Z","Level":"Error","Message":"Timeout during payment processing","Service":"PaymentAPI","RequestId":"req-007","Exception":"TimeoutException","UserId":"user-42"}
+{"Timestamp":"2026-02-20T10:05:15Z","Level":"Information","Message":"Scheduled job executed","Service":"BackgroundWorker","RequestId":"job-001","JobName":"CleanupTempFiles"}
+{"Timestamp":"2026-02-20T10:06:30Z","Level":"Error","Message":"Null reference exception encountered","Service":"UserAPI","RequestId":"req-008","Exception":"NullReferenceException","UserId":"user-23","StackTrace":"at UserService.GetProfile() in UserService.cs:line 42"}
+{"Timestamp":"2026-02-20T10:07:00Z","Level":"Information","Message":"Cache refreshed successfully","Service":"CacheAPI","RequestId":"req-009","CacheName":"UserCache"}
+{"Timestamp":"2026-02-20T10:07:30Z","Level":"Warning","Message":"High memory usage detected","Service":"AnalyticsAPI","RequestId":"req-010","MemoryUsageMB":1024}
+{"Timestamp":"2026-02-20T10:08:05Z","Level":"Error","Message":"Failed to generate report","Service":"AnalyticsAPI","RequestId":"req-011","Exception":"ReportGenerationException","UserId":"user-42","ReportType":"MonthlySales"}
+{"Timestamp":"2026-02-20T10:08:45Z","Level":"Information","Message":"Service heartbeat","Service":"AuthAPI","RequestId":"hb-001"}
+{"Timestamp":"2026-02-20T10:09:10Z","Level":"Error","Message":"Payment declined by gateway","Service":"PaymentAPI","RequestId":"req-012","Exception":"PaymentGatewayException","UserId":"user-42","TransactionId":"txn-789"}
+{"Timestamp":"2026-02-20T10:09:45Z","Level":"Information","Message":"Email sent successfully","Service":"NotificationAPI","RequestId":"req-013","Recipient":"user-23@example.com"}
+{"Timestamp":"2026-02-20T10:10:05Z","Level":"Warning","Message":"Disk space low","Service":"BackgroundWorker","RequestId":"job-002","DiskFreeGB":1.2}

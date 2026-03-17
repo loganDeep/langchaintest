@@ -39,7 +39,7 @@ class Timer:
 #make this better later by adding more LLM options
 def getCurrentLLM():
     """Get current LLM instance (ChatOllama with phi3 model)"""
-    llm = ChatOllama(model="phi3")
+    llm = ChatOllama(model="llama3.1")
     return llm
 
 def InvokeLLM(llm, context, question: str):
@@ -50,7 +50,7 @@ def InvokeLLM(llm, context, question: str):
     else:
         context_str = context
     
-    prompt = f"Use ONLY this context:\n{context_str}\n\nQuestion: {question}"
+    prompt = f"Use ONLY this context:\n{context_str}\n\n Tell me: {question}"
     response = llm.invoke(prompt)
     return response
 
