@@ -3,7 +3,7 @@ import json
 
 GRAFANA_URL = "http://localhost:3000"
 
-API_TOKEN = "glsa_9PJVEl0Cylyp8ZHHFONg7nEm5cDPZcSd_3d7b2b59"
+API_TOKEN = "TOKENHERE"
 
 DATASOURCE_UID = "ffemv7qkeuk8wf"
 
